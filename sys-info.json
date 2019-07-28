@@ -1,0 +1,4 @@
+{
+  runningcontainers:["§§INSTANCE-jenkins"],
+  supportcontainers:["§§INSTANCE-jenkins-data"]    
+}
