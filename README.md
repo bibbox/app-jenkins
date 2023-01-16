@@ -1,10 +1,23 @@
-# Jenkins application
+# Jenkins BIBBOX application
 
-## Hints
+Jenkins can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest/ "BIBBOX App Store") or standalone. 
 
-## Docker Images Used
- 
-## Install Environment Variables
+* For the initial user/password you need to access the BIBBOX server to retrieve it. For further informatio consult the instructions.
+* After the installation follow these [instructions](INSTALL-APP.md)
 
-## Mounted Volumes
+## Standalone Installation
 
+Clone the github repository. If necessary change the ports and volume mounts in `docker-compose.yml`.  
+
+```
+git clone https://github.com/bibbox/app-jenkins
+cd app-jenkins
+mkdir data
+docker-compose up -d
+```
+
+The main app can be opened at 
+
+```
+http://localhost
+```
