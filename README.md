@@ -7,7 +7,7 @@ Jenkins can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest
 
 ## Standalone Installation
 
-Clone the github repsoitory. If necessary change the ports and volume mounts in `docker-compose.yml`.  
+Clone the github repository. If necessary change the ports and volume mounts in `docker-compose.yml`.  
 
 ```
 git clone https://github.com/bibbox/app-jenkins
