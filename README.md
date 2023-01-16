@@ -3,7 +3,7 @@
 Jenkins can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest/ "BIBBOX App Store") or standalone. 
 
 * For the initial user/password you need to access the BIBBOX server to retrieve it. For further informatio consult the instructions.
-* After the installation follow these [instructions](https://github.com/bibbox/app-jenkins/blob/development-version-for-bibboxv4/INSTALL-APP.md)
+* After the installation follow these [instructions](INSTALL-APP.md)
 
 ## Standalone Installation
 
