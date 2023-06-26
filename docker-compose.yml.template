@@ -10,6 +10,9 @@ services:
     image: jenkins/jenkins:2.411
     container_name:  §§INSTANCE-jenkins
     restart: unless-stopped
+    environment:
+        JAVA_OPTS: -Djenkins.install.runSetupWizard=false
+        JENKINS_OPTS: --argumentsRealm.roles.user=admin --argumentsRealm.passwd.admin=§§ADMINPW --argumentsRealm.roles.admin=admin
     networks:
       - bibbox-default-network
     ports:
