@@ -19,7 +19,6 @@ services:
       - "50000:50000"
     volumes:
       - ./data:/var/jenkins_home
-      - ./jenkins-configuration.yaml:/var/jenkins_home/jenkins-configuration.yaml
 
     proxy:
       TYPE: PRIMARY
