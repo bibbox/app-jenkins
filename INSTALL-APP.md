@@ -15,7 +15,9 @@ The login is diabled on startup by default. As this is not recommended go to sec
 * You will be redirected towards the Login screen
 * Click on "register"
 * Enter your user name and Password
-* Go back to the "Manage Jenkins" Tab and uncheck Check the box: "Allow users to sign up"
+* Go back to the "Manage Jenkins" Tab
+* Search for the "Security" Tab and go there
+* Uncheck Check the box: "Allow users to sign up"
 
 Congrats your Jenkins is now secure
 
