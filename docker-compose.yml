@@ -12,7 +12,7 @@ services:
     restart: unless-stopped
     environment:
         JAVA_OPTS: -Djenkins.install.runSetupWizard=false
-        JENKINS_OPTS: --argumentsRealm.roles.user=admin --argumentsRealm.passwd.admin=admin --argumentsRealm.roles.admin=admin
+        CASC_JENKINS_CONFIG: /var/jenkins_home/jenkins-configuration.yaml
     networks:
       - bibbox-default-network
     ports:
