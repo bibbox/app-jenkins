@@ -1,9 +1,6 @@
 jenkins:
   securityRealm:
-    local:
-      allowsSignup: false
+    global:
+      allowsSignup: true
       users:
-        # create a user called admin
-        - id: "admin"
-          password: "admin"
   authorizationStrategy: loggedInUsersCanDoAnything
