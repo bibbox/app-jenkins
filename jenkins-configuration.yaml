@@ -1,0 +1,6 @@
+jenkins:
+  securityRealm:
+    global:
+      allowsSignup: true
+      users:
+  authorizationStrategy: loggedInUsersCanDoAnything
