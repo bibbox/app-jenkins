@@ -2,15 +2,26 @@
 * Install app from the BIBBOX store
 * Wait for app to finish installing
 
-## Login
-The login is diabled on startup by default. As this is not recommended go to security settings and:
-*
-
 ## After the installation
 
-![jenkins_getting started](https://user-images.githubusercontent.com/118280106/203067487-ab22684e-081f-47fd-b5b5-f1f75240ada1.png)
-* click on install suggested plugins
-* Create a new account to access the application
+### Login
+The login is diabled on startup by default. As this is not recommended go to security settings and:
+* Click on the "Manage Jenkins" Tab
+* Click on Setup security
+* Select "Jenkins's own user database" in the security realm dropdown
+* Check the box: "Allow users to sign up"
+* Select "Logged in Users can do anything" in the Authorization dropdown
+* Press save and Apply on the bottom of the Page
+* You will be redirected towards the Login screen
+* Click on "register"
+* Enter your user name and Password
+* Go back to the "Manage Jenkins" Tab and uncheck Check the box: "Allow users to sign up"
+
+Congrats your Jenkins is now secure
+
+### Further Steps
+* Read up on the further steps on what to do next here
+* [Jenkins Documentation](https://www.jenkins.io/doc/)
 
 
 PS: everytime you install jenkins you need to do the first login procedure above.
