@@ -1,11 +1,2 @@
 [
-     {
-        "id":"ADMINPW",
-        "display_name":"ADMINPASSWORD",
-        "type":"text",
-        "default_value":"admin",
-        "description":"Username for admin user",
-        "min_length": "1",
-        "max_length": "128"
-     }
 ]
