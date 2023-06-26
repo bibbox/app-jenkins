@@ -3,11 +3,8 @@
 * Wait for app to finish installing
 
 ## Login
-![jenkins1](https://user-images.githubusercontent.com/118280106/203066643-e77cd4eb-85ad-467a-b130-5ffc47bd7366.png)
-* for the first login you need access to the BIBBOX server
-* once you have access to the server, browse for the path `/instances/container_name/data/secrets`
-* you will find the password in the file named `initialAdminPassword`
-* paste it in "Administrator password" box and click Continue
+The login is diabled on startup by default. As this is not recommended go to security settings and:
+*
 
 ## After the installation
 
