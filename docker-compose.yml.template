@@ -1,11 +1,8 @@
 version: '3'
-
 networks:
     bibbox-default-network:
       external: true
-
 services:
-
   §§INSTANCE-jenkins:
     image: jenkins/jenkins:2.411
     container_name:  §§INSTANCE-jenkins
@@ -19,6 +16,7 @@ services:
       - "50000:50000"
     volumes:
       - ./data:/var/jenkins_home
+      - ./jenkins-configuration.yaml:/var/jenkins_home/jenkins-configuration.yaml
 
     proxy:
       TYPE: PRIMARY
