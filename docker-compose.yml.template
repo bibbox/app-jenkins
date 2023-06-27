@@ -10,8 +10,6 @@ services:
     image: jenkins/jenkins:2.411
     container_name:  §§INSTANCE-jenkins
     restart: unless-stopped
-    environment:
-        - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
     networks:
       - bibbox-default-network
     ports:
