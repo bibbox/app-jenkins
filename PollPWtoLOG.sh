@@ -26,3 +26,5 @@ while true; do
   fi
   sleep "$polling_interval"
 done
+
+tail -f /dev/null
