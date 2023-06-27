@@ -18,7 +18,7 @@ services:
     volumes:
       - ./data:/var/jenkins_home
       - ./PollPWtoLOG.sh:/home/run_pw.sh
-     command: bash /home/run_pw.sh
+    command: bash /home/run_pw.sh
 
 
     proxy:
