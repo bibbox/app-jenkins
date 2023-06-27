@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Source file path to poll
-source_file="/path/to/source/file.txt"
+source_file="/var/jenkins_home/secrets/initialAdminPassword"
 
 # Destination file path to append the content
 destination_file="/path/to/destination/file.txt"
@@ -21,8 +21,7 @@ file_exists() {
 # Infinite loop to poll for file existence
 while true; do
   if file_exists "$source_file"; then
-    cat "$source_file" >> "$destination_file"
-    echo "File content appended successfully!"
+    echo "$(cat $source_file)"
   fi
   sleep "$polling_interval"
 done
