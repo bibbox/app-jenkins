@@ -5,7 +5,7 @@
 ## After the installation
 
 ### Login
-The login is diabled on startup by default. As this is not recommended go to security settings and:
+The login is diabled on startup by default. As this is not recommended complete the following steps:
 * Click on the "Manage Jenkins" Tab
 * Click on Setup security
 * Select "Jenkins's own user database" in the security realm dropdown
@@ -19,7 +19,8 @@ The login is diabled on startup by default. As this is not recommended go to sec
 * Search for the "Security" Tab and go there
 * Uncheck Check the box: "Allow users to sign up"
 
-Congrats your Jenkins is now secure
+Congrats your Jenkins is now secure. 
+* Additionally you can now add further Users in the Security Tab
 
 ### Further Steps
 * Read up on the further steps on what to do next here
