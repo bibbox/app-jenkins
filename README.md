@@ -1,30 +1,39 @@
-# Jenkins BIBBOX application
+# jenkins BIBBOX application
 
-Jenkins can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest/ "BIBBOX App Store") or standalone. 
+This container can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest/ "BIBBOX App Store") or standalone. 
 
-* For the initial user/password you need to access the BIBBOX server to retrieve it. For further informatio consult the instructions.
-* After the installation follow these [instructions](INSTALL-APP.md)
+- after the docker installation follow these [instructions](INSTALL-APP.md)
 
-## Standalone Installation
+## Standalone Installation 
 
-Clone the github repository. If necessary change the ports and volume mounts in `docker-compose.yml`.  
+Clone the github repository. If necessary change the ports in the environment file `.env` and the volume mounts in `docker-compose.yml`.
 
 ```
 git clone https://github.com/bibbox/app-jenkins
 cd app-jenkins
-mkdir data
 docker-compose up -d
 ```
 
-The main app can be opened at 
-
+The main app can be opened and set up at
 ```
-http://localhost
+http://localhost:8080
 ```
 
-## Docker Images Used 
+## Install within BIBBOX
 
- * [jenkins](https://hub.docker.com/_/mysql/](https://hub.docker.com/layers/jenkins/jenkins/2.411/images/sha256-b31864140a1fe9ebb2a779b260b7360a61c41dd31aa673212549cb8b2dc99420?context=explore)https://hub.docker.com/layers/jenkins/jenkins/2.411/images/sha256-b31864140a1fe9ebb2a779b260b7360a61c41dd31aa673212549cb8b2dc99420?context=explore), official Jenkins container
+Visit the BIBBOX page and find the App by its name in the Store. Click on the symbol and select Install. Then fill the parameters below and name your app click install again.
 
-## Environment Variables
-  * NONE
+## Docker Images used
+  - [jenkins/jenkins](https://hub.docker.com/r/jenkins/jenkins) 
+
+
+ 
+## Install Environment Variables
+
+  
+The default values for the standalone installation are:
+
+  
+## Mounted Volumes
+### jenkins/jenkins Conatiner
+  - *./data/:/var/jenkins_home*
