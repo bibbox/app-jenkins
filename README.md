@@ -36,6 +36,6 @@ The default values for the standalone installation are:
 
   
 ## Mounted Volumes
-### jenkins/jenkins Conatiner
+### jenkins/jenkins Container
   - *./data/:/var/jenkins_home*
 
