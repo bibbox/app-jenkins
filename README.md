@@ -2,6 +2,8 @@
 
 This container can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest/ "BIBBOX App Store") or standalone. 
 
+For the initial user/password you need to access the BIBBOX server to retrieve it. For further information consult the instructions.
+
 After the docker installation follow these [instructions](INSTALL-APP.md).
 
 ## Standalone Installation 
