@@ -8,5 +8,5 @@
 		"application_url": "https://jenkins.io",
 		"tags": ["Build tool"],
 		"application_documentation_url": "https://www.jenkins.io/doc/book/",
-		"instance_information": "work in progress"
+		"instance_information": "<p> Jenkins is an automation server, which provides hundreds of plugins to support building, deploying and automating any project. </p>"
 }
