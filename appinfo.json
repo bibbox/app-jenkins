@@ -1,7 +1,7 @@
 {
 		"name": "Jenkins",
 		"short_name": "Jenkins",
-		"version": "v.2.411",
+		"version": "v2.411",
 		"description": " The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.",
                 "short_description": "Build great things at any scale",
 		"catalogue_url": "",
